@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    /*background-image: url(../img/header1.jpg);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -208,7 +208,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -384,8 +383,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     border-color: #194152;
-    color: #fff;
-    background-color: #194152;
+    color: #194152;
+    background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
