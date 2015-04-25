@@ -178,7 +178,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    /*background-image: url(../img/header1.jpg);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -470,4 +469,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.portfolio-box img{
+    width:auto;
+    max-height:auto;
 }
