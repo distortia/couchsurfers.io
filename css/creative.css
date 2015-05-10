@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #194152;
+    border-color: #fff;
     border-width: 3px;
 }
 
@@ -469,4 +469,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.portfolio-box img{
+    width:auto;
+    max-height:auto;
 }

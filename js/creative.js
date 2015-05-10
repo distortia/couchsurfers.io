@@ -48,6 +48,6 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function(){
-    var images = ['header1.jpg', 'header2.jpg'];
+    var images = ['header1.jpg', 'header2.jpg', 'header3.jpg'];
     $('header').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 });
