@@ -178,7 +178,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    /*background-image: url(../img/header1.jpg);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -272,9 +271,9 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(25,65,64,.9);
-    -webkit-transition: all .35s;
+/*    -webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s;
+    transition: all .35s;*/
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
