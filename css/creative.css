@@ -269,11 +269,11 @@ header .header-content .header-content-inner p {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0;
-    background: rgba(25,65,64,.9);
-/*    -webkit-transition: all .35s;
+    opacity: .10;
+    background: rgba(25,65,64,.80);
+    -webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s;*/
+    transition: all .35s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -314,6 +314,12 @@ header .header-content .header-content-inner p {
     }
 }
 
+@media(max-width:767px){
+    .portfolio-box .portfolio-box-caption {
+        opacity: 1;
+        color: 000;
+    }
+}
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
@@ -474,4 +480,15 @@ body {
 .portfolio-box img{
     width:auto;
     max-height:auto;
+}
+.btn-dark  {
+    border-color: #1f5066;
+    color: #fff;
+    background-color: #13323e;
+}
+.btn-dark:hover{
+    color: #fff;
+}
+hr.dark{
+    border-color: #000
 }
