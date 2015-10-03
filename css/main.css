@@ -3320,15 +3320,6 @@ body {
   content: "";
   display: table;
 }
-.contact-us-section h1 {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-}
-.contact-us-section h1:last-child {
-  margin-right: 0;
-}
 
 .contact-us-form::after {
   clear: both;

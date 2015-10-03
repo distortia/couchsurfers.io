@@ -1,9 +1,8 @@
 //Contact us form
 .contact-us-section{
   @include outer-container;
-  h1{ @include span-columns(12);  }
 }
 
 .contact-us-form{
-  @include clearfix;
+  @include clearfix();
 }
