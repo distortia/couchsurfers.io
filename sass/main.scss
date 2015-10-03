@@ -1,0 +1,15 @@
+//Main Sass file
+//Import all of our sass files into this file for compilation and minification
+
+//Normalize
+@import "vendor/normalize";
+//Bourbon
+@import "vendor/bourbon/bourbon";
+//Neat
+@import "vendor/neat/neat";
+//Bitters
+@import "vendor/base/base";
+//modules
+@import "modules/modules";
+//partials
+@import "partials/partials";
