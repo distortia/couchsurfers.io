@@ -1,9 +1,17 @@
 //Base sass for pages
 
-//Fonts
+html,body{
+  font-family: $cabin;
+}
 
-//Html
-
-//Body
 
 //Headings
+h1,h2,h3,h4,h5,h6{
+  font-family: $droid-sans;
+}
+
+
+//Background
+body{
+    @include background(linear-gradient(#83AFA6, #58727F));
+}
